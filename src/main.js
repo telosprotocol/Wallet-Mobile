@@ -20,15 +20,15 @@ Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 
 Es6Promise.polyfill()
-ga(router, '')
+ga(router, 'UA-127734414-1')
 
 var config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  projectId: '',
-  storageBucket: '',
-  messagingSenderId: ''
+  apiKey: 'AIzaSyDtMilTlqKm3ZzFez3X2FY58fMtxgVNc24',
+  authDomain: 'toptestnet.firebaseapp.com',
+  databaseURL: 'https://toptestnet.firebaseio.com',
+  projectId: 'toptestnet',
+  storageBucket: 'toptestnet.appspot.com',
+  messagingSenderId: '43727609584'
 }
 firebase.initializeApp(config)
 
